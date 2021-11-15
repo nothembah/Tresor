@@ -18,6 +18,5 @@ function next(){
         read.style.display = 'block';
         nextBtn.style.display = 'none';
     }
-    console.log(counter);
     counter++;
 }
