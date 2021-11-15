@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h2, h3, h4, h5, .read{
+    display: none;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+.next {
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.next:hover{
+    color: limegreen;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.read {
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.read:hover {
+    background-color: rgba(255, 255, 255, 0.637);
+    cursor: pointer;
+}
+
+.poem {
+    background: url("213781272_422382655934573_3256161336708827889_n(1).jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.words {
+    background-color: rgba(245, 245, 245, 0.678);
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+    height: auto;
+    width: 70vw;
+}
